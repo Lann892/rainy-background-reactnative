@@ -12,9 +12,9 @@ const START_POSITION = -50;
 const RAIN_TYPES = ["💧"];
 const FALL_SPEEDS = ["slow", "medium", "fast"];
 const FALL_DURATIONS = {
-  fast: [7000, 10000],
-  medium: [8000, 20000],
-  slow: [30000, 60000],
+  fast: [6000, 9000],
+  medium: [7500, 15000],
+  slow: [10000, 30000],
 };
 
 export default function Rainy({ scene, fallSpeed }) {
@@ -68,8 +68,8 @@ const getConfig = ({ scene, initialDelay = false, fallSpeed } = {}) => {
     speed = fallSpeed;
   }
 
-  const size = randomInt(6, 14);
-  const opacity = randomInt(3, 6) / 10;
+  const size = randomInt(6, 12);
+  const opacity = randomInt(4, 8) / 10;
   const type = RAIN_TYPES[0];
   const xPosition = randomInt(0, width);
 
