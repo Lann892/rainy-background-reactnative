@@ -17,13 +17,13 @@ yarn add rainy-background-reactnative
 
 Add it to any View in you app:
 ```js
-import Rainy from 'rainy-background-reactnative';
+import Rain from 'rainy-background-reactnative';
 
 export default function App() {
   return (
     <View>
       ...
-      <Rainy fullScreen rainCount={100} fallSpeed="medium" />
+      <Rain fullScreen rainCount={100} fallSpeed="medium" />
     </View>
   );
 }
