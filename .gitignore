@@ -9,6 +9,7 @@ npm-debug.*
 *.mobileprovision
 *.orig.*
 web-build/
+RainyScreen.jsx
 
 # macOS
 .DS_Store

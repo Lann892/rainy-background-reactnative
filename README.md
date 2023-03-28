@@ -1,4 +1,4 @@
-# react-native-snow-bg
+# rainy-background-reactnative
 It can be used for ios and android as nice rainy background!
 
 ![](Example/rainy-bg.gif)
@@ -32,6 +32,6 @@ export default function App() {
 # Snow props
 | Props                | Type          | Description  | Default      |
 | --------------------- |:-------------:| ------------ | ------------ |
-| `rainCount` | `Integer`     | How many snowflakes to render.      |`100` |
-| `fallSpeed`  | `slow` , `medium`, `fast`     | How fast snowflakes will fall.| `medium`         |
-| `fullScreen`    | `Boolean`     | If `true` component will always take screen width and height. If `false` it will take 100% parent width and height. Usefult if  you want snow background to fill jsut a part of your screen.      | `false` |
+| `rainCount` | `Integer`     | How many rain to render.      |`100` |
+| `fallSpeed`  | `slow` , `medium`, `fast`     | How fast rain will fall.| `medium`         |
+| `fullScreen`    | `Boolean`     | If `true` component will always take screen width and height. If `false` it will take 100% parent width and height. Usefult if  you want rain background to fill jsut a part of your screen.      | `false` |

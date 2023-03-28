@@ -12,9 +12,9 @@ const START_POSITION = -50;
 const RAIN_TYPES = ["💧"];
 const FALL_SPEEDS = ["slow", "medium", "fast"];
 const FALL_DURATIONS = {
-  fast: [6000, 9000],
-  medium: [7500, 15000],
-  slow: [10000, 30000],
+  fast: [5000, 8000],
+  medium: [7000, 10000],
+  slow: [9000, 20000],
 };
 
 export default function Rainy({ scene, fallSpeed }) {
